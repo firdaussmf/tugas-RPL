@@ -1,0 +1,294 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+.navigasi {
+  background-color: #3b4997;
+  width: 100%;
+  height: 70px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.menu {
+  margin-left: 900px;
+  padding-top: 27px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
+  color: lightskyblue;
+  font-style: italic;
+}
+
+.banner {
+  background-color: #3b5999;
+  height: 700px;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  border-radius: 100px;
+  height: 150px;
+  border: 6px solid white;
+  margin-top: 100px;
+}
+
+.banner h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner button {
+  margin-top: 60px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 50px;
+  border: none;
+}
+
+.banner button:hover {
+  background-color: #3b5999;
+  border: 1px solid white;
+  color: white;
+}
+
+h1 span:before {
+  content: "";
+  animation: gerak infinite 8s ease;
+  transform: translateY(-50%);
+  color: lightblue;
+  font-size: 50px;
+}
+
+@keyframes gerak {
+  0% {
+    content: "Selamat Datang ";
+  }
+
+  50% {
+    content: "SMP PGRI 1 BUDURAN";
+  }
+
+  100% {
+    content: "Terimakasih Sudah Singgah!";
+  }
+}
+
+.gacor h2 {
+  text-align: center;
+}
+
+.gacor p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#profil {
+  padding-top: 125px;
+  margin-bottom: 200px;
+}
+
+/* BAGIAN VISI MISI */
+.vimi {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.vimi-section {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.vimi-section h3 {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.vimi-section p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.vimi-section li {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#vm h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 100px;
+  width: 100%;
+  line-height: 20px;
+  color: #364f6b;
+  text-align: center;
+}
+
+#vm {
+  margin-top: 100px;
+  padding: 165px 0px 175px 0px;
+}
+
+h4 {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  color: #364f6b;
+  width: 100%;
+  font-size: 20px;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan {
+  width: 300px;
+  height: 320px;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 30px 60px;
+  margin: 70px 20px 20px 55px;
+  border-radius: 10px;
+  float: left;
+}
+
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover {
+  background-color: #3b5999;
+  color: white;
+}
+
+.box-pendidikan {
+  text-align: center;
+  color: #4d4d4d;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
+.box-pendidikan img {
+  height: 150px;
+  border-radius: 5rem;
+}
+
+/* BAGIAN KONTAK */
+.kolomk {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+
+.kolomk h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 90px;
+}
+
+.kolomk p {
+  padding: 1rem;
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.kolomk input {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.kolomk input,
+.kolomk textarea {
+  width: 50%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #999;
+}
+
+.kolomk input[type="submit"] {
+  border-bottom: none;
+  cursor: pointer;
+  background: #fc5185;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.kontak {
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+/* BAGIAN SITEMAP */
+#sitemap {
+  background: #dedede;
+  padding: 120px 0px 120px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.footer-section p {
+  margin-bottom: 20px;
+}
+
+/* Copyright */
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 100px 0px 100px 0px;
+  background: #478ccf;
+  border-top: 2px solid #364f6b;
+}
